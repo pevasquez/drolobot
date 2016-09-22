@@ -4,7 +4,6 @@
 import cgitb
 cgitb.enable()
 
-
 # Connect to the database.
 import pymysql
 conn = pymysql.connect(
